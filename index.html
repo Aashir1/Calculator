@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+<div class="cal">
+    <form class="calculator">
+        <div class="calculation">
+        <input type="text" id="show">
+        <input type="text" id="textField">
+        </div>
+        <div class="btns">
+            <input type="button" class="button" id="7" value="7" name="btn7" onClick="setValue(btn7)">
+            <input type="button" class="button" id="8" value="8" name="btn8" onClick="setValue(btn8)">
+            <input type="button" class="button" id="9" value="9" name="btn9" onClick="setValue(btn9)">
+             <input type="button" class="button-divide" id="/" value="/" name="btndivid" onClick="setOperator(btndivid)">
+            <input type="button" class="button" id="4" value="4" name="btn4" onClick="setValue(btn4)">
+            <input type="button" class="button" id="5" value="5" name="btn5" onClick="setValue(btn5)">
+            <input type="button" class="button" id="6" value="6" name="btn6" onClick="setValue(btn6)">
+            <input type="button" class="button-multi" id="*" value="*" name="btnmultip" onClick="setOperator(btnmultip)">
+            <input type="button" class="button" id="1" value="1" name="btn1" onClick="setValue(btn1)">
+            <input type="button" class="button" id="2" value="2" name="btn2" onClick="setValue(btn2)">
+            <input type="button" class="button" id="3" value="3" name="btn3" onClick="setValue(btn3)">
+            <input type="button" class="button-minus" id="-" value="-" name="btnminus" onClick="setOperator(btnminus)">
+            <input type="button" class="button" id="c" value="c" name="btnc" onClick="setValue(btnc)">
+            
+            <input type="button" class="button" id="0" value="0" name="btn0" onClick="setValue(btn0)">
+            <input type="button" class="button" id="=" value="=" name="btnequal" onClick ="equalPress()">
+            <input type="button" class="button-plus" id="+" value="+" name="btnplus" onClick="setOperator(btnplus)">
+             
+            
+           
+            
+            
+        </div>
+
+
+        
+    </form>
+</div>
+    <script src="app.js"></script>
+</body>
+
+</html>
